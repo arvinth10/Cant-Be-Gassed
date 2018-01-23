@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Can't Be Gassed</title>
+    <link href="./styles/ResultStyle.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./scripts/results.js"></script>
+  </head>
+
+  <body>
+    <h1>Gas Stations</h1>
+
+    <div id="map"></div>
+
+    <script type="text/javascript" src="scripts/displayMap.js" ></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxCF6y2Zr24sybpmaY5iPk3B56WvcSRSY&callback=initMap">
+    </script>
+
+
+
+    <table class="text">
+      <thead>
+        <tr>
+          <th scope="col">Gas Station</th>
+          <th scope="col">Address</th>
+          <th scope="col">Total Cost (Travel + Full Tank Gas)</th>
+        </tr>
+      </thead>
+      <tbody id="table_body">
+        <!-- <tr>
+          <td>Address of station</td>
+          <td>Link to Google Maps</td>
+          <td>Cost</td>
+        </tr> -->
+      </tbody>
+    </table>
+
+    <div>
+      <form action="/info" method="get">
+        <button id="submit" class="btn" type="submit"><span>Search again</span></button>
+      </form>
+    </div> 
+
+  </body>
+
+</html>

@@ -1,0 +1,39 @@
+{
+  "name": "cantbegassed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cant be Gassed Web application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Team05_CSC301",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.4.5",
+    "assert": "^1.4.1",
+    "async": "^2.6.0",
+    "asyncawait": "^1.0.6",
+    "body-parser": "^1.18.2",
+    "chromedriver": "^2.33.2",
+    "express": "^4.16.2",
+    "express-jade": "0.0.3",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.4.2",
+    "nodemon": "^1.12.1",
+    "promise": "^8.0.1",
+    "pug": "^2.0.0-rc.4",
+    "regex": "^0.1.1",
+    "replace-in-file": "^3.0.0",
+    "selenium-webdriver": "^3.6.0",
+    "sequelize": "^4.22.5",
+    "wait-for-stuff": "^1.3.0",
+    "wait-until": "0.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}

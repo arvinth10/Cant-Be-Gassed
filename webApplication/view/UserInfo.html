@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Can't Be Gassed</title>
+    <link href="./styles/UserInfoStyle.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./scripts/gasbuddy.js"></script>
+  </head>
+
+  <body>
+    <div class = "form">
+      <h1 class="text">Can't Be Gassed</h1>
+        <div class="group">
+          <input id="postalCode" type="text" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Postal Code:</label>
+        </div>
+
+        <div class="group">
+          <input id="gas" type="text" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Gas Mileage(L/100km):</label>
+        </div>
+
+        <div class="group">
+          <input id="maxDist" type="text" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Search Distance(km):</label>
+        </div>
+
+        <!-- <label class="text question">Postal Code:</label>
+        <input id="postalCode" type="text" name="Postal Code" class="answer" placeholder=" e.g. M5S 2E4"> <br>
+
+        <label class="text question">Gas Mileage(L/100km):</label>
+        <input id="gas" type="text" name="Gas Mileage" class="answer" placeholder=" e.g. 15"> <br>
+
+        <label class="text question">Search Distance(km):</label>
+        <input id="maxDist" type="text" name="Search Distance" class="answer" placeholder=" e.g. 5"> -->
+
+        <br>
+        <button id="submit" class="btn" type="button"><span>Search</span></button>
+
+    </div>
+
+    <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+      <div class="modal-content">
+
+        <h1><i class="fa fa-circle-o-notch fa-spin"></i> Loading</h1>
+      </div>
+
+    </div>
+  </body>
+</html>

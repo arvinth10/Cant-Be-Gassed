@@ -1,0 +1,12 @@
+The Database is hosted on Amazon Web Service. 
+
+Install MySQL bench from this page: https://dev.mysql.com/downloads/workbench/
+
+
+Connection Name: gasdatabase
+Hostname: gasdatabase.cnmmii20ccez.us-east-2.rds.amazonaws.com
+port: 3306
+Username: gasadmin
+password: csc3012017
+
+

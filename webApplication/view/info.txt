@@ -1,0 +1,1 @@
+All the front-end realted information resides in this folder. Ex: HTML, CSS, and JavaScript files

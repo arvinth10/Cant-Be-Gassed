@@ -1,0 +1,28 @@
+#### Events (a schedule of meetings for iteration 2 generated from [the plan.md file for iteration 2](https://github.com/csc301-fall-2017/project-team-05/blob/master/deliverables/iteration-02.plan.md#events))
+
+- October 20, 2017, 4:00PM  in BA2270
+	- Initial plan meeting
+- October 23, 2017, 8:00PM in BA2270
+	- Start creating User-Stories and finalize execution plan
+- October 26, 2017, 9:30PM Trello Board Meeting
+	- Discuss progress on individual/pair tasks
+- October 30, 2017, 8:00PM in BA2270
+	- Should have finished individual/pair tasks
+	- Code review (write up comments and notes) and describe to rest of team what your code does and how
+	- Discuss remaining work to be done
+	- Distribute tasks/discuss how to put app together
+- November 2, 2017, 9:30PM Trello Board Meeting
+	- Discuss progress made on putting all the work together, and what still needs to be done
+- November 6, 2017, 8:00PM Trello Board Meeting
+	- Discuss progress made and what still needs to be done
+	- Code review (write up comments and notes)
+	- Distribute remaining work if not already distributed
+- November 9, 2017, 9:30PM Trello Board Meeting
+	- Discuss what has been done and what still needs to be done on the app
+	- Code review (write up comments and notes)
+	- Distribute remaining tasks, if any
+- November 13, 2017, 8:00PM in BA2270
+	- Discuss and distribute tasks for video demo, finalize video script
+- November 16, 2017, 9:30PM Trello Board Meeting
+	- Finish demo video and discuss/add finishing touches
+	- Review the work done over the iteration and reflect on the plan

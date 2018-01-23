@@ -1,0 +1,71 @@
+doctype html
+head
+  title Can&apos;t Be Gassed
+  |     
+  link(href='./styles/UserInfoStyle.css', type='text/css', rel='stylesheet')
+  |     
+  link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+  |     
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+  |     
+  script(type='text/javascript', src='./scripts/gasbuddy.js')
+.form
+  h1.text Can&apos;t Be Gassed
+  |     
+  h2 Hello #{userName} !
+  |
+  p #{error}     
+  form(action='/save', method='post')
+    .group
+      input#userID(type='text', name='userID', value=userName, readonly="readonly")    
+    |            
+    .group
+      input#postalCode(type='text', name='postalCode', value=postalCode, required='')
+      |             
+      span.highlight
+      |  
+      span.bar
+      |             
+      label Postal Code:
+    |         
+    .group
+      input#gas(type='text', name='gasMileage', value=gasMileage, required='')
+      |             
+      span.highlight
+      |             
+      span.bar
+      |             
+      label Gas Mileage(L/100km):
+    |         
+    .group
+      input#maxDist(type='text', name='preferDist', value=preferDist, required='')
+      |             
+      span.highlight
+      |             
+      span.bar
+      |             
+      label Search Distance(km):
+    //
+      <label class="text question">Postal Code:</label>
+      <input id="postalCode" type="text" name="Postal Code" class="answer" placeholder=" e.g. M5S 2E4"> <br>
+      <label class="text question">Gas Mileage(L/100km):</label>
+      <input id="gas" type="text" name="Gas Mileage" class="answer" placeholder=" e.g. 15"> <br>
+      <label class="text question">Search Distance(km):</label>
+      <input id="maxDist" type="text" name="Search Distance" class="answer" placeholder=" e.g. 5">
+    br
+    |  
+    button#submit.btn(type='button')
+      span Submit
+    |         
+    button#submit.btn(type='submit')
+      span Save
+    |     
+  form(action='/logout', method='post')
+    button#submit.btn(type='submit')
+      span Logout
+#myModal.modal
+  // Modal content
+  .modal-content
+    h1
+      i.fa.fa-circle-o-notch.fa-spin
+      |  Loading

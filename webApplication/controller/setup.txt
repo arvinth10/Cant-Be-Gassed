@@ -1,0 +1,20 @@
+1. Install NodeJS:
+	- Mac: https://www.youtube.com/watch?v=Imj8PgG3bZU
+	- Windows: https://www.youtube.com/watch?v=-u-j7uqU7sI
+
+	Version that should be installed: 6.11.5 LTS
+
+	Follow tutorial upto the end of node isntallation, everything else is complete.
+
+	You can continue watching further tutorials by that youtuber to learn more about node.
+
+2. In this current direcoty there is a file called "package.json", which contains all the dependancies that are going to be needed for
+	this application. To install all these dependancies you can simply just run "npm install".
+
+3. To run app.js, you need to run 'npm start' and it will run app.js
+
+4. The API could be tested by going to http://localhost:3000 (with what ever endpoint you want to test)
+
+
+Google Maps NODE Client usage:
+	Refer to : https://github.com/googlemaps/google-maps-services-js

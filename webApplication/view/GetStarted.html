@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Can't Be Gassed</title>
+    <link href="./styles/StartingStyle.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="heading">
+      <h1 class="text">Can't Be Gassed</h1>
+      <h2 class="text">Your Current Location</h2>
+    </div>
+
+    <div id="map"></div>
+    <script type="text/javascript" src="scripts/displayMap.js" ></script>
+
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxCF6y2Zr24sybpmaY5iPk3B56WvcSRSY&callback=initMap">
+    </script>
+
+    <button class="btn" type="button"><span><a href="./LoginPage.html">Login/Register</a></span></button>
+    <button class="btn" type="button"><span><a href="UserInfo.html">Continue without login</a></span></button>
+
+    <div id="startLogo" class="modal">
+
+  <!-- Modal content -->
+      <div class="modal-content">
+
+        <img src="logo.png" alt="Logo" class="pulse" Cant>
+        <h1>Can't Be Gassed</h1>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

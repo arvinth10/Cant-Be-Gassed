@@ -1,0 +1,1 @@
+All model related files should reside in this folder. For example the database files.
